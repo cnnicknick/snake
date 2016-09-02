@@ -1,0 +1,33 @@
+body{
+	margin: 0;
+	background: url("images/back2.jpg");
+}
+*{
+	/*box-sizing: border-box;*/
+}
+#sense{
+	width: 600px;
+	height: 600px;
+	/*background: #fff;*/
+	box-shadow: 0 0 32px black;
+	padding: 10px;
+	margin: 20px auto;
+}
+.block7{
+	float: left;
+	background: rgba(99, 99, 203,.4);
+	margin: 0 1px 1px 0;
+}
+.panel{
+	position: fixed;left:0;top:0;
+	width:20%;background: rgba(0,0,0,0.1);height:100%;
+	padding:10% 2%;
+}
+.panel span{
+	width:150px ;height:40px;text-align: center;display: inline-block;
+	padding:20px;color:#fff;border:1px solid #ccc;font-size: 32px;
+	border-radius: 20px;cursor: pointer;margin:10px 0;
+}
+.panel span:hover{
+	font-size:28px ;box-shadow: 0 0 20px #ccc;
+}
